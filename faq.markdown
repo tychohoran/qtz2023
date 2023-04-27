@@ -63,6 +63,9 @@ There is also street parking on Sims Ave, if arriving by car.
 ## What is the tabling set-up provided for exhibitors?
 
 Shared tables: 2.5 ft. x 3 ft.
+
 Full tables: 2.5 ft. x 6 ft.
+
 1 to 2 chairs with padded backs per exhibitor.
+
 All tables are located under a tent.

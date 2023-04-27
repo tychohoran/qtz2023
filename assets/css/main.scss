@@ -17,7 +17,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: {{site.accent_color}};
 }
 a.home-button{
 	display: block;
@@ -48,6 +48,7 @@ h1 {
 	padding: 1em;
 	max-width: 1400px;
 	font-size: 1.5em;
+	overflow-x: hidden;
 }
 
 div#wrapper.page-wrapper {
@@ -59,11 +60,14 @@ nav.site-navigation{
 	position: relative;
 	width: 100%;
 	max-width: 1000px;
+	flex-flow: row wrap;
 }
 
 nav.site-navigation > a{
 	display: block;
 	position: relative;
+	color: {{site.text_color}};
+	margin-top: 0.5em;
 }
 
 nav.site-navigation > a:not(:first-child){
@@ -114,6 +118,7 @@ div.logo-container > img {
 	min-height: 80px;
 	transform-origin: center center;
 	animation: apply 1s infinite alternate;
+	color: {{site.text_color}};
 }
 .mascot {
 	max-height: 70%;
@@ -150,12 +155,15 @@ footer.fest-tagline {
 	  border: solid {{site.text_color}};
 		padding: 0.375em;
 		border-radius: 1em;
+		margin-left: 0.375em;
+		margin-right: 0.375em;
 	}
 	nav.site-navigation > a:hover{
 	background-color: {{site.text_color}};
 	color: {{site.background_color}}
 }
   nav.site-navigation > a:not(:first-child){
-	margin-left: 1em;
+	margin-left: 0.375em;
+	margin-right: 0.375em;
 	}
 }

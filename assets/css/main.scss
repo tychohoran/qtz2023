@@ -2,6 +2,13 @@
 ---
 
 @import "base";
+
+@keyframes apply {
+  from {transform: scale(1.0);}
+  to {transform: scale(1.1);}
+}
+
+
 body {
 	background-color: {{ site.background_color }};
 	color: {{ site.text_color }};
@@ -25,14 +32,14 @@ a {
 	margin: auto;
 	padding: 1em;
 	max-width: 1400px;
-	font-size: 2.5vw;
+	font-size: 1.5em;
 }
 
 .main-canvas{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	height: 90%;
+	height: 100%;
 	align-items: center;
 	align-content: center;
 }
@@ -41,10 +48,14 @@ a {
 	flex: 0 0 auto;
 	max-height: 80%;
 	width: auto;
-	max-width: 45%;
+	max-width: 40%;
+	min-width: 150px;
 }
 div.logo-container{
 	position: relative;
+	max-width: 50%;
+	min-width: 300px;
+	padding-top: 5%;
 }
 
 div.logo-container > img {
@@ -52,15 +63,46 @@ div.logo-container > img {
 	width: 100%;
 }
 #apply-button{
-	right: 0;
+	right: -10%;
 	top: 0;
 	position: absolute;
-	display: block;
+	display:flex;
 	padding: 1em;
+	background-image: url('{{site.apply_button_image}}');
+	background-size: 100% 100%;
+	width: 7.5vw;
+	height: 9.2vw;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	min-width: 64px;
+	min-height: 80px;
+	transform-origin: center center;
+	animation: apply 1s infinite alternate;
+}
+.mascot {
+	max-height: 70%;
+	max-width: 40%;
 }
 footer.fest-tagline {
 	text-align: center;
 	width: 100%;
 	margin-top: 1em;
 	max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+  #apply-button {
+  	top: -12%;
+  	right: -12%;
+  }
+  .mascot {
+  	transform: translateY(10%);
+  }
+  footer.fest-tagline {
+  	margin-top: 0.5em;
+  }
 }

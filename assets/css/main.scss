@@ -4,8 +4,8 @@
 @import "base";
 
 @keyframes apply {
-  from {transform: scale(1.0);}
-  to {transform: scale(1.1);}
+  from {transform: scale(1.0) translate(calc(20% + 20px), calc(-15% - 30px));}
+  to {transform: scale(1.1) translate(calc(20% + 20px), calc(-15% - 30px));}
 }
 
 
@@ -17,7 +17,22 @@ body {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: {{site.accent_color}};
+}
+a.home-button{
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+a.home-button > img {
+	width: 5em;
+	height: auto;
+}
+div#wrapper > h1:first-of-type {
+	margin-top: 0rem;
+}
+h1 {
+	text-align: center;
 }
 
 #wrapper {
@@ -33,6 +48,30 @@ a {
 	padding: 1em;
 	max-width: 1400px;
 	font-size: 1.5em;
+	overflow-x: hidden;
+}
+
+div#wrapper.page-wrapper {
+	max-width: 800px;
+}
+
+nav.site-navigation{
+	display: flex;
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	flex-flow: row wrap;
+}
+
+nav.site-navigation > a{
+	display: block;
+	position: relative;
+	color: {{site.text_color}};
+	margin-top: 0.5em;
+}
+
+nav.site-navigation > a:not(:first-child){
+	margin-left: 2em;
 }
 
 .main-canvas{
@@ -55,15 +94,15 @@ div.logo-container{
 	position: relative;
 	max-width: 50%;
 	min-width: 280px;
-	padding-top: 5%;
 }
 
 div.logo-container > img {
 	height: auto;
 	width: 100%;
+
 }
 #apply-button{
-	right: -10%;
+	right: 0;
 	top: 0;
 	position: absolute;
 	display:flex;
@@ -79,6 +118,7 @@ div.logo-container > img {
 	min-height: 80px;
 	transform-origin: center center;
 	animation: apply 1s infinite alternate;
+	color: {{site.text_color}};
 }
 .mascot {
 	max-height: 70%;
@@ -95,14 +135,35 @@ footer.fest-tagline {
   body {
     font-size: 1em;
   }
+  nav.site-navigation{
+  	justify-content: center;
+  	margin-bottom: 0.5em;
+  }
   #apply-button {
-  	top: -12%;
-  	right: -12%;
+  }
+  div.logo-container{
+  	margin-left: 50%;
+  	margin-right: 50%;
   }
   .mascot {
-  	transform: translateY(10%);
+  	transform: 1em;
   }
   footer.fest-tagline {
-  	margin-top: 0.5em;
+  	margin-top: 0em;
   }
+  nav.site-navigation > a {
+	  border: solid {{site.text_color}};
+		padding: 0.375em;
+		border-radius: 1em;
+		margin-left: 0.375em;
+		margin-right: 0.375em;
+	}
+	nav.site-navigation > a:hover{
+	background-color: {{site.text_color}};
+	color: {{site.background_color}}
+}
+  nav.site-navigation > a:not(:first-child){
+	margin-left: 0.375em;
+	margin-right: 0.375em;
+	}
 }

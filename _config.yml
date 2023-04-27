@@ -1,7 +1,6 @@
 ---
 title: Queer/Trans Zinefest 2023
 timezone: UTC
-description: "Queer & Trans Zinefest (QTZ) is an annual small works festival celebrating the creations of queer, trans, and gender non-conforming artists. This year, we welcome 50 exhibitors from RI and beyond to the The Steel Yard in Providence, RI on Saturday, September 2, from 11am-5pm. Come join us! QTZ is totally free and open to the public."
 collections:
   posts:
     title: Posts
@@ -21,4 +20,9 @@ defaults:
     type: pages
   values:
     layout: page
+description: Queer & Trans Zinefest (QTZ) is an annual small works festival celebrating
+  the creations of queer, trans, and gender non-conforming artists. This year, we
+  welcome 50 exhibitors from RI and beyond to the The Steel Yard in Providence, RI
+  on Saturday, September 2, from 11am-5pm. Come join us! QTZ is totally free and open
+  to the public.
 permalink: pretty

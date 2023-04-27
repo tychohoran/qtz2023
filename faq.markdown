@@ -1,15 +1,26 @@
 ---
 title: FAQ
 date: 2023-04-27 17:08:00 Z
+background_color: "#C8E7D7"
 ---
 
-# QTZ FAQ and Accessibility
+# FAQ and Accessibility
 
 ## What is QTZ?
+
+The Queer/Trans Zine Fest (QTZ) is a free 1-day zine fair held on unceded Narragansett land (Providence, RI) organized by and for queer, trans, and gender non-conforming people. Our definition of “zine” is deliberately broad and we invite all creative people with radical ideas to apply. In the past, our exhibitors have included poets, comic artists, community organizations, and activist collectives, as well as makers of ceramics, apparel, herbal medicines, and textiles.
 
 ## When and where is QTZ 2023 taking place?
 
 QTZ 2023 will take place outdoors at The Steel Yard on Saturday, September 2, 2023 from 11am–5pm. There will be additional programming throughout that weekend at the Binch Press / Queer.Archive.Work Studio.
+
+## Is QTZ free?
+
+Yes! QTZ is free to attendees and exhibitors. There is no tabling fee and exhibitors will be offered a small stipend on a sliding scale.
+
+## How does the QTZ application process work?
+
+Once applications close on Monday May 22nd, 2023 at 11:59pm, they will be reviewed by the QTZ fest organizers using a rubric that prioritizes Providence-based Black, Indigenous, people of color.
 
 ## Is this event wheelchair-accessible?
 

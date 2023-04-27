@@ -57,6 +57,7 @@ h1 {
 }
 
 div#wrapper.page-wrapper {
+  position: relative;
   max-width: 800px;
 }
 

@@ -2,3 +2,7 @@
 ---
 
 @import "base";
+body {
+	background-color: {{ site.background_color }};
+	color: {{ site.text_color }};
+}

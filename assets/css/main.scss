@@ -65,9 +65,9 @@ nav.site-navigation{
 
 nav.site-navigation > a{
 	display: block;
+	margin-top: 0em;
 	position: relative;
 	color: {{site.text_color}};
-	margin-top: 0;
 }
 
 nav.site-navigation > a:not(:first-child){

@@ -12,7 +12,7 @@ As a curated zinefest, we feature and invite artists whose identities intersect 
 
 Our definition of a “zine” is deliberately broad. In the past, our vendors have included poets, comic artists, community organizations, and activist collectives, as well as makers of ceramics, apparel, natural medicines and remedies, and textiles.
 
-## Collective Responsibility Statement
+# Collective Responsibility Statement
 
 As participants and attendees of Providence Queer/Trans Zinefest, we ask that you hold yourselves and each other responsible for your conduct and look out for each other at this fest. As an open-access and public event, we cannot guarantee a space free of sexism, racism, homophobia. However, we ask that you to keep in mind the principle of mutual and collective responsibility.
 
@@ -26,8 +26,8 @@ In compliance with the our agreement with the venue, and for participants’ hea
 Smoking anything is permitted only in designated smoking areas
 No alcohol may be consumed on the premises
 
-This statement was based on the Bay Area Anarchist Bookfair’s Statement of Mutual Responsibility. Thank you for letting us use it!
+This statement was based on the [Bay Area Anarchist Bookfair’s](https://bayareaanarchistbookfair.com/baabf-statement-of-mutual-responsibility/) Statement of Mutual Responsibility. Thank you for letting us use it!
 
-## Support
+# Support
 
-QTZ has been made possible with funding and support from Rhode Island Foundation, Unity Center at Rhode Island College, Rhode Island Council for the Humanities, RISCA, The Steel Yard, Bolt Coffee, and Binch Press / Queer.Archive.Work.
+QTZ 2023 has been made possible with funding and support from Binch Press / Queer.Archive.Work. If you would like to make a donation to support, visit the [Queer.Archive.Work website.](https://queer.archive.work/donate/index.html)

@@ -57,7 +57,7 @@ a {
 div.logo-container {
   position: relative;
   max-width: 50%;
-  min-width: 300px;
+  min-width: 280px;
   padding-top: 5%;
 }
 
@@ -93,7 +93,7 @@ div.logo-container > img {
 footer.fest-tagline {
   text-align: center;
   width: 100%;
-  margin-top: 1em;
+  margin-top: 0.75em;
   max-width: 100%;
 }
 

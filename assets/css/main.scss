@@ -78,7 +78,7 @@ nav.site-navigation > a:not(:first-child){
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	height: 100%;
+	min-height: 100%;
 	align-items: center;
 	align-content: center;
 }
@@ -152,18 +152,24 @@ footer.fest-tagline {
   	margin-top: 0em;
   }
   nav.site-navigation > a {
-	  border: solid {{site.text_color}};
+	  border: 1px solid {{site.text_color}};
 		padding: 0.375em;
 		border-radius: 1em;
-		margin-left: 0.375em;
-		margin-right: 0.375em;
+		margin-left: 0.25em;
+		margin-right: 0.25em;
 	}
 	nav.site-navigation > a:hover{
 	background-color: {{site.text_color}};
 	color: {{site.background_color}}
 }
   nav.site-navigation > a:not(:first-child){
-	margin-left: 0.375em;
-	margin-right: 0.375em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	}
+	nav.site-navigation > a:first-child{
+		margin-left: 0;
+	}
+	nav.site-navigation > a:last-child{
+		margin-right: 0;
 	}
 }

@@ -67,7 +67,7 @@ nav.site-navigation > a{
 	display: block;
 	position: relative;
 	color: {{site.text_color}};
-	margin-top: 0.5em;
+	margin-top: 0;
 }
 
 nav.site-navigation > a:not(:first-child){
@@ -157,6 +157,7 @@ footer.fest-tagline {
 		border-radius: 1em;
 		margin-left: 0.25em;
 		margin-right: 0.25em;
+		margin-top: 0.5em;
 	}
 	nav.site-navigation > a:hover{
 	background-color: {{site.text_color}};

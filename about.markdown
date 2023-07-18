@@ -30,4 +30,12 @@ This statement was based on the [Bay Area Anarchist Bookfair’s](https://bayare
 
 # Support
 
-QTZ 2023 has been made possible with funding and support from Binch Press / Queer.Archive.Work. If you would like to make a donation to support, visit the [Queer.Archive.Work website.](https://queer.archive.work/donate/index.html)
+QTZ 2023 has been made possible with support from Binch Press / Queer.Archive.Work. If you would like to make a donation to support, visit the [Queer.Archive.Work website.](https://queer.archive.work/donate/index.html)
+
+We would also like to acknowledge the generous funding and donations of:
+
+City of Providence Department of Art, Culture + Tourism
+Providence Tourism Council
+Rhode Island Council for the Humanities
+Rhode Island Foundation
+White Electric Coffee

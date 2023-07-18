@@ -34,9 +34,4 @@ QTZ 2023 has been made possible with support from Binch Press / Queer.Archive.Wo
 
 We would also like to acknowledge the generous funding and donations of:
 
-City of Providence Department of Art, Culture + Tourism
-Providence Tourism Council
-Rhode Island Council for the Humanities
-Rhode Island Foundation
-The Steel Yard
-White Electric Coffee
+The City of Providence Department of Art Culture + Tourism, the Providence Tourism Council, the Rhode Island Council for the Humanities, the Rhode Island Foundation, the Steel Yard, and White Electric Coffee

@@ -38,4 +38,5 @@ City of Providence Department of Art, Culture + Tourism
 Providence Tourism Council
 Rhode Island Council for the Humanities
 Rhode Island Foundation
+The Steel Yard
 White Electric Coffee

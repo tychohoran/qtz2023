@@ -14,7 +14,11 @@ body {
 	color: {{ site.text_color }};
 	font-size: 20px;
 }
-
+hr {
+    border: 0;
+    height: 2px;
+    background: {{site.text_color}};
+}
 a {
 	text-decoration: none;
 	color: {{site.accent_color}};
@@ -53,7 +57,7 @@ h1 {
 
 div#wrapper.page-wrapper {
 	position: relative;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 nav.site-navigation{
@@ -132,7 +136,93 @@ footer.fest-tagline {
 	max-width: 100%;
 }
 
+.exhibitor {
+  display: flex;
+  padding: 2rem;
+}
+
+.exhibitor-info{
+  font-size: 100%;
+  line-height: 1.25;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+a.exhibitor-index {
+	color: {{site.text_color}};
+}
+
+.exhibitor-info > p {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 75%;
+}
+
+h1.exhibitor-name{
+  font-size: 100%;
+  margin-bottom: 0;
+  line-height: 1;
+  text-align: left;
+}
+
+.exhibitor-city {
+
+}
+
+.exhibitor-links {
+  word-break: break-all;
+}
+
+.exhibitor-photo {
+  height: 300px;
+  width: 300px;
+/*  clear: left;
+  float: left;*/
+  min-width: 300px;
+/*  margin-right: 25px;*/
+  object-fit: cover;
+}
+
+/*.exhibitor-list-index > a::before{
+  content: '📚  ';
+}*/
+
+.exhibitor-list-index > a{
+  display: list-item;
+  /*list-style-type: "📚";
+  padding-inline-start: 1ch;*/
+}
+
+.exhibitor-list-index{
+  font-size: 1.5rem;
+  line-height: 1.25;
+  column-count: 3;
+  column-gap: 8vw;
+  margin-bottom: 3rem;
+}
+
 @media only screen and (max-width: 600px) {
+
+.exhibitor-list-index{
+  column-count: 2;
+}
+.exhibitor-photo {
+  height: 70vw;
+  width: 70vw;
+  min-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.exhibitor-info{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.exhibitor{
+  flex-flow: row wrap;
+}
+
+
   body {
     font-size: 1em;
   }

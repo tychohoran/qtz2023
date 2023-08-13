@@ -149,6 +149,7 @@ footer.fest-tagline {
 }
 
 a.exhibitor-index {
+	text-decoration: underline;
 	color: {{site.text_color}};
 }
 
@@ -189,8 +190,8 @@ h1.exhibitor-name{
 
 .exhibitor-list-index > a{
   display: list-item;
-  /*list-style-type: "📚";
-  padding-inline-start: 1ch;*/
+  list-style-type: "✦";
+  padding-inline-start: 1ch;
 }
 
 .exhibitor-list-index{
@@ -201,10 +202,16 @@ h1.exhibitor-name{
   margin-bottom: 3rem;
 }
 
+@media only screen and (max-width: 800px) {
+	.exhibitor-list-index{
+  	column-count: 2;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 
 .exhibitor-list-index{
-  column-count: 2;
+  column-count: 1;
 }
 .exhibitor-photo {
   height: 70vw;

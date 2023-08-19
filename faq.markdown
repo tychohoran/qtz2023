@@ -26,9 +26,19 @@ Once applications close on Monday May 22nd, 2023 at 11:59pm, they will be review
 
 Yes! The Steel Yard hosts a variety of events throughout the year, including Queer/Trans Zinefest. All Steel Yard events are 100% wheelchair accessible. Event attendees have access to both a fully ADA accessible portable restroom as well as custom wheelchair-accessible picnic tables.
 
+The Steel Yard’s outdoor area is paved, with a combination of bricks and permeable concrete. It is mostly flat and even, with a slight slope in some areas. The main entry to the Fest location is connected to the sidewalk with a slight upward slope. 
+
+## Do you have a way for attendees/exhibitors to cool off?
+
+All exhibitor tables will be under tents, but the Steel Yard is in an industrial area and can get hot! There will be an air-conditioned cooling area indoors with water available. There is a metal ADA-compliant ramp leading into the cooling station. There will be another air conditioned indoor cooling station at Binch Press/Queer.Archive.Work, down the block and across the street. Masks are required in indoor areas, including both cooling stations. 
+
+## What kind of bathrooms are on on-site?
+
+There is an accessible outdoor port-a-potty available. If you need an indoor restroom for accessibility reasons, please ask a Fest organizer.
+
 ## What are your COVID policies?
 
-We are holding this event outside and will have a designated organizer to hand out masks. We ask that you consider wearing masks even though this is an outside event. If you are interacting with an exhibitor or organizer wearing a mask, it would be kind to reciprocate by putting on a mask as well. We will have both surgical masks and K95 masks (upon request) for exhibitors, volunteers, and attendees. If you have cold or flu-like symptoms, we ask that you not attend the event. We will have a limited supply of rapid tests available for exhibitors and volunteers.
+We are holding this event outside and will have a designated organizer to hand out masks. We ask that you consider wearing masks even though this is an outside event. If you are interacting with an exhibitor or organizer wearing a mask, it would be kind to reciprocate by putting on a mask as well. We will have both surgical masks and K95 masks (upon request) for exhibitors, volunteers, and attendees. If you have cold or flu-like symptoms, we ask that you not attend the event. We will have a limited supply of rapid tests available for exhibitors and volunteers at our reading and the zinefest itself.
 
 ## Will there be food or beverages?
 
@@ -49,10 +59,6 @@ Yes, in addition to tents for exhibitors, there will be tents and sun sails thro
 ## Are dogs allowed at this event?
 
 Service animals and well-behaved, leashed dogs are welcome on site, but please be aware of everyone’s comfort level.
-
-## Will programs or speakers have amplified sound?
-
-Yes, workshops and programs will have wireless amplified sound for attendees that are hard of hearing.
 
 ## How can I get to this event?
 

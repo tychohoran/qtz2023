@@ -8,15 +8,25 @@
   to {transform: scale(1.1) translate(calc(20% + 20px), calc(-15% - 30px));}
 }
 
+@font-face {
+	font-family: "PicNic";
+	src: url('/fonts/PicNic-Regular.eot');
+	src: url('/fonts/PicNic-Regular.eot') format('embedded-opentype'),
+       url('/fonts/PicNic-Regular.woff2') format('woff2'),
+       url('/fonts/PicNic-Regular.woff') format('woff'),
+}
+
 
 body {
-	background-color: {{ site.background_color }};
+	background-color: #d6f2ff;
 	color: {{ site.text_color }};
-	font-size: 20px;
+	font-size: 18px;
+	font-family: "Space Grotesk", sans-serif;
 }
-hr {
+.exhibitor-container > hr {
     border: 0;
     height: 2px;
+    padding-top: 0;
     background: {{site.text_color}};
 }
 a {
@@ -32,11 +42,27 @@ a.home-button > img {
 	width: 5em;
 	height: auto;
 }
+
+nav.site-navigation > a:hover{
+	background-color: {{site.text_color}};
+	color: #d6f2ff;
+}
 div#wrapper > h1:first-of-type {
 	margin-top: 0rem;
 }
 h1 {
 	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+}
+h1.header {
+	margin: 0 -2em;
+}
+
+h1.site-header {
+	margin: 0 -0.5em;
 }
 
 #wrapper {
@@ -53,6 +79,7 @@ h1 {
 	max-width: 1400px;
 	font-size: 1.5em;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 div#wrapper.page-wrapper {
@@ -60,12 +87,17 @@ div#wrapper.page-wrapper {
 	max-width: 1000px;
 }
 
+h1.hidden-header {
+	display: none;
+}
+
 nav.site-navigation{
 	display: flex;
 	position: relative;
 	width: 100%;
-	max-width: 1000px;
 	flex-flow: row wrap;
+	justify-content: center;
+	box-sizing: border-box;
 }
 
 nav.site-navigation > a{
@@ -73,10 +105,121 @@ nav.site-navigation > a{
 	margin-top: 0em;
 	position: relative;
 	color: {{site.text_color}};
+	border: 1.5px solid {{site.text_color}};
+	padding: 0.2em 0.5em;
+	border-radius: 1em;
+	margin: 0.25em;
 }
 
-nav.site-navigation > a:not(:first-child){
+a.return-to-top {
+	display: block;
+	margin-top: 0em;
+	position: absolute;
+	color: {{site.text_color}};
+	border: 1.5px solid {{site.text_color}};
+	padding: 0.2em 0.5em;
+	border-radius: 1em;
+	box-sizing: border-box;
+	right: 2em;
+}
+
+a.return-to-top:hover {
+	background-color:  {{site.text_color}};
+	color: #d6f2ff;
+}
+
+.program-events {
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.program-events td {
+	vertical-align: top;
+	padding-bottom: 1em;
+	position: relative;
+}
+
+
+.program-events tr {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+.program-events td.program-date {
+	min-width: 250px;
+}
+
+.program-events td.program-time {
+	min-width: 150px;
+}
+
+.program-events td:not(:first-child) {
+	padding-left: 3em;
+}
+
+
+/*nav.site-navigation > a:not(:first-child){
 	margin-left: 2em;
+}*/
+
+#fest-year {
+	display: none;
+}
+.program-events {
+	padding-top: 1em;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	display: block;
+	background-size: cover;
+	background-position: bottom;
+	padding: 1em 2em;
+	box-sizing: border-box;
+}
+
+section > * {
+	padding-top: 0.325em;
+}
+
+.section-body {
+	max-width: 750px;
+	position: relative;
+	width: 100%;
+	margin: auto;
+	padding: 1em 0;
+	box-sizing: border-box;
+}
+
+#top {
+	height: 120vw;
+	max-height: 42em;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#top + section {
+	padding-top: 0;
+}
+
+h1.header {
+	margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 3.25em;
+  line-height: 1;
+  font-family: "PicNic", "Space Grotesk", sans-serif;
+  font-weight: 1;
+}
+
+h1.site-header {
+	padding-top: 0;
+	line-height: 1;
 }
 
 .main-canvas{
@@ -97,14 +240,29 @@ nav.site-navigation > a:not(:first-child){
 }
 div.logo-container{
 	position: relative;
-	max-width: 50%;
-	min-width: 280px;
+/*	max-width: 50%;
+	min-width: 280px;*/
+	width: 100%;
+	margin: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
-div.logo-container > img {
+/*div.logo-container > img {
 	height: auto;
 	width: 100%;
 
+}*/
+img.site-title {
+	position: relative;
+	width: 50%;
+	max-width: 400px;
+	box-sizing: border-box;
 }
 #apply-button{
 	right: 0;
@@ -129,6 +287,20 @@ div.logo-container > img {
 	max-height: 70%;
 	max-width: 40%;
 }
+
+div.detail-container{
+	position: relative;
+	margin: auto;
+	max-width: 750px;
+	box-sizing: border-box;
+	margin-top: 0.75em;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+div.detail:first-child{
+	margin-right: 2em;
+}
 footer.fest-tagline {
 	text-align: center;
 	width: 100%;
@@ -146,6 +318,12 @@ footer.fest-tagline {
   line-height: 1.25;
   padding-right: 3rem;
   padding-left: 3rem;
+}
+
+div.exhibitor-container {
+	position: relative;
+	margin: auto;
+	max-width: 1000px;
 }
 
 a.exhibitor-index {
@@ -202,13 +380,115 @@ h1.exhibitor-name{
   margin-bottom: 3rem;
 }
 
-@media only screen and (max-width: 800px) {
-	.exhibitor-list-index{
-  	column-count: 2;
+@media only screen and (max-width: 1200px) {
+	#top {
+		max-height: 38em;
 	}
 }
 
+@media only screen and (max-width: 800px) {
+
+	#top {
+		height: 200vw;
+		max-height: 40em;
+	}
+
+	.month-end {
+		display: none;
+	}
+
+	.program-events td:not(:first-child) {
+		padding-left: 1.5em;
+	}
+
+
+	.program-events td.program-date {
+		min-width: 100px;
+	}
+
+	body {
+		font-size: 15px;
+	}
+
+	.exhibitor-list-index{
+  	column-count: 2;
+	}
+
+	.exhibitor-photo {
+		min-width: 200px;
+		height: 200px;
+	}
+
+	 nav.site-navigation{
+  	justify-content: center;
+  	margin-bottom: 0.5em;
+  	margin-left: -2em;
+  	margin-right: -2em;
+  	width: auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+
+.program-events {
+	padding-top: 0;
+}
+	#top {
+		background-size: 160%;
+		max-height: 41em;
+		height: 210vw;
+	}
+
+#fest-year-logo {
+	display: none;
+}
+
+.program-events td:not(:first-child) {
+		padding-left: 0.5em;
+	}
+
+.program-events td.program-date {
+	display: none;
+}
+.program-events td.program-time {
+	padding-left: 0;
+}
+
+img.site-title {
+	width: 100%;
+}
+
+h1.site-header {
+	font-size: 2.5em;
+	line-height: 1;
+}
+
+h1.hidden-header {
+	position: relative;
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+div.detail-container{
+	justify-content: center;
+	margin-left: -1em;
+	margin-right: -1em;
+	margin-top: 0.5em;
+}
+div.detail:first-child {
+	margin-right: 1em;
+}
+
+#fest-year {
+	display: inline;
+}
 
 .exhibitor-list-index{
   column-count: 1;
@@ -227,40 +507,39 @@ h1.exhibitor-name{
 
 .exhibitor{
   flex-flow: row wrap;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-
-  body {
-    font-size: 1em;
-  }
-  nav.site-navigation{
-  	justify-content: center;
-  	margin-bottom: 0.5em;
-  }
   #apply-button {
   }
-  div.logo-container{
+/*  div.logo-container{
   	margin-left: 50%;
   	margin-right: 50%;
-  }
+  }*/
   .mascot {
   	transform: 1em;
   }
   footer.fest-tagline {
   	margin-top: 0em;
   }
+  nav.site-navigation {
+  	margin-bottom: 0;
+  	padding-top: 0em;
+  }
   nav.site-navigation > a {
-	  border: 1px solid {{site.text_color}};
+	  /*border: 1px solid {{site.text_color}};
 		padding: 0.375em;
-		border-radius: 1em;
+		border-radius: 1em;*/
 		margin-left: 0.25em;
 		margin-right: 0.25em;
-		margin-top: 0.5em;
+		margin-top: 0.25em;
 	}
-	nav.site-navigation > a:hover{
-	background-color: {{site.text_color}};
-	color: {{site.background_color}}
-}
+
+	a.return-to-top {
+		right: 1em;
+	}
+	
   nav.site-navigation > a:not(:first-child){
 	margin-left: 0.25em;
 	margin-right: 0.25em;

@@ -16,6 +16,27 @@
        url('/fonts/PicNic-Regular.woff') format('woff'),
 }
 
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes float2 {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -10px);
+  }
+}
+
+.cloud {
+  animation: float 5s ease-in-out infinite alternate; /* Adjust duration and timing function as needed */
+}
+
 
 body {
 	background-color: #d6f2ff;
@@ -52,6 +73,7 @@ div#wrapper > h1:first-of-type {
 }
 h1 {
 	text-align: center;
+	line-height: 1.125;
 }
 
 h2 {
@@ -63,6 +85,33 @@ h1.header {
 
 h1.site-header {
 	margin: 0 -0.5em;
+}
+
+section a {
+	color: #EF5F5D;
+}
+
+section#faq h1 {
+	padding-bottom: 0.5em;
+}
+
+section#faq h2 {
+	font-weight: 500;
+	text-decoration: underline;
+	padding-bottom: 0;
+}
+
+section#faq p.section-body {
+	padding-left: 1em;
+}
+
+.button-wrapper a {
+	font-size: 1.5em; background-color: #FFDA8D;color: {{site.text_color}};text-align: center;position: relative;margin: auto;border: 1.5px solid #134083;padding: 0.2em 0.5em;border-radius: 1em;
+}
+
+.button-wrapper{
+	margin-top: 1em;
+	margin-bottom: 0em;
 }
 
 #wrapper {
@@ -283,11 +332,55 @@ img.site-title {
 	animation: apply 1s infinite alternate;
 	color: {{site.text_color}};
 }
+section.text-blocks {
+	padding-bottom: 4em;
+}
 .mascot {
 	max-height: 70%;
 	max-width: 40%;
 }
+.small-mascot {
+	width: 25%;
+	position: absolute;
+	z-index: 20;
+	top: -12.5vw;
+	min-width: 250px;
+}
 
+@media only screen and (max-width: 400px) {
+	.button-wrapper a{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.small-mascot {
+		position: relative;
+    top: 0;
+    left: 50% !important;
+    right: 50% !important;
+    transform: translate(-50%, 0);
+    margin-bottom: -2em;
+    width: 50%;
+	}
+	section.text-blocks {
+		padding-bottom: 1em;
+	}
+	.button-wrapper{
+		margin-top: 0.5em;
+		margin-bottom: 1.5em;
+	}
+	.small-mascot.cloud {
+	  animation: float2 5s ease-in-out infinite alternate; /* Adjust duration and timing function as needed */
+	}
+}
+
+.small-mascot.left {
+		left: 3vw;
+}
+.small-mascot.right {
+		right: 3vw;
+}
 div.detail-container{
 	position: relative;
 	margin: auto;

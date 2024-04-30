@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
 @keyframes apply {
@@ -16,9 +16,29 @@ body {
   src: url("/fonts/PicNic-Regular.eot");
   src: url("/fonts/PicNic-Regular.eot") format("embedded-opentype"), url("/fonts/PicNic-Regular.woff2") format("woff2"), url("/fonts/PicNic-Regular.woff") format("woff");
 }
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes float2 {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -10px);
+  }
+}
+.cloud {
+  animation: float 5s ease-in-out infinite alternate; /* Adjust duration and timing function as needed */
+}
+
 body {
   background-color: #d6f2ff;
-  color: #00347A;
+  color: #134083;
   font-size: 18px;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -27,7 +47,7 @@ body {
   border: 0;
   height: 2px;
   padding-top: 0;
-  background: #00347A;
+  background: #134083;
 }
 
 a {
@@ -47,7 +67,7 @@ a.home-button > img {
 }
 
 nav.site-navigation > a:hover {
-  background-color: #00347A;
+  background-color: #134083;
   color: #d6f2ff;
 }
 
@@ -57,6 +77,7 @@ div#wrapper > h1:first-of-type {
 
 h1 {
   text-align: center;
+  line-height: 1.125;
 }
 
 h2 {
@@ -69,6 +90,41 @@ h1.header {
 
 h1.site-header {
   margin: 0 -0.5em;
+}
+
+section a {
+  color: #EF5F5D;
+}
+
+section#faq h1 {
+  padding-bottom: 0.5em;
+}
+
+section#faq h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  padding-bottom: 0;
+}
+
+section#faq p.section-body {
+  padding-left: 1em;
+}
+
+.button-wrapper a {
+  font-size: 1.5em;
+  background-color: #FFDA8D;
+  color: #134083;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  border: 1.5px solid #134083;
+  padding: 0.2em 0.5em;
+  border-radius: 1em;
+}
+
+.button-wrapper {
+  margin-top: 1em;
+  margin-bottom: 0em;
 }
 
 #wrapper {
@@ -110,8 +166,8 @@ nav.site-navigation > a {
   display: block;
   margin-top: 0em;
   position: relative;
-  color: #00347A;
-  border: 1.5px solid #00347A;
+  color: #134083;
+  border: 1.5px solid #134083;
   padding: 0.2em 0.5em;
   border-radius: 1em;
   margin: 0.25em;
@@ -121,8 +177,8 @@ a.return-to-top {
   display: block;
   margin-top: 0em;
   position: absolute;
-  color: #00347A;
-  border: 1.5px solid #00347A;
+  color: #134083;
+  border: 1.5px solid #134083;
   padding: 0.2em 0.5em;
   border-radius: 1em;
   box-sizing: border-box;
@@ -130,7 +186,7 @@ a.return-to-top {
 }
 
 a.return-to-top:hover {
-  background-color: #00347A;
+  background-color: #134083;
   color: #d6f2ff;
 }
 
@@ -289,12 +345,58 @@ img.site-title {
   min-height: 80px;
   transform-origin: center center;
   animation: apply 1s infinite alternate;
-  color: #00347A;
+  color: #134083;
+}
+
+section.text-blocks {
+  padding-bottom: 4em;
 }
 
 .mascot {
   max-height: 70%;
   max-width: 40%;
+}
+
+.small-mascot {
+  width: 25%;
+  position: absolute;
+  z-index: 20;
+  top: -12.5vw;
+  min-width: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+  .button-wrapper a {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .small-mascot {
+    position: relative;
+    top: 0;
+    left: 50% !important;
+    right: 50% !important;
+    transform: translate(-50%, 0);
+    margin-bottom: -2em;
+    width: 50%;
+  }
+  section.text-blocks {
+    padding-bottom: 1em;
+  }
+  .button-wrapper {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+  }
+  .small-mascot.cloud {
+    animation: float2 5s ease-in-out infinite alternate; /* Adjust duration and timing function as needed */
+  }
+}
+.small-mascot.left {
+  left: 3vw;
+}
+
+.small-mascot.right {
+  right: 3vw;
 }
 
 div.detail-container {
@@ -338,7 +440,7 @@ div.exhibitor-container {
 
 a.exhibitor-index {
   text-decoration: underline;
-  color: #00347A;
+  color: #134083;
 }
 
 .exhibitor-info > p {
@@ -506,7 +608,7 @@ h1.exhibitor-name {
     padding-top: 0em;
   }
   nav.site-navigation > a {
-    /*border: 1px solid #00347A;
+    /*border: 1px solid #134083;
     padding: 0.375em;
     border-radius: 1em;*/
     margin-left: 0.25em;

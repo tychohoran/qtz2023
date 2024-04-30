@@ -1,5 +1,5 @@
 ---
-title: Queer/Trans Zinefest 2023
+title: Queer/Trans Zinefest 2024
 timezone: UTC
 collections:
   posts:
@@ -23,8 +23,8 @@ defaults:
 description: Queer & Trans Zinefest (QTZ) is an annual small works festival celebrating
   the creations of queer, trans, and gender non-conforming artists. This year, we
   welcome 50 exhibitors from RI and beyond to the The Steel Yard in Providence, RI
-  on Saturday, September 2, from 11am-5pm. Come join us! QTZ is totally free and open
-  to the public.
+  on Saturday, August 31st 2024, from 11am-5pm. Come join us! QTZ is totally free
+  and open to the public.
 permalink: pretty
 background_color: "#FFE0DE"
 text_color: "#134083"
@@ -32,12 +32,11 @@ accent_color: "#ff413a"
 Favicon Image: "/uploads/favicon.ico"
 Text Logo Sideways Image: 
 Text Logo Stacked Image: "/uploads/QTZ-2023-Font-Final-2_darker_flat.png"
-Text Logo Alt Text: QTZ 2023 Logo
-Mascot Image: "/uploads/Better-Sabii-QTZ-2023-Animation.gif"
-Mascot Alt Text: An animation of the QTZ 2023 jaunty peach mascot walking with a spring
-  in their step.
+Text Logo Alt Text: QTZ 2024 Logo
+Mascot Image: "/uploads/2024PeachA.png"
+Mascot Alt Text: QTZ 2024 Peach Mascot by Karen Czap
 Event Date: 
-Tagline: Queer/Trans Zinefest in Providence, RI on Saturday September 2, 2023
+Tagline: Queer/Trans Zinefest in Providence, RI on Saturday August 31, 2024
 apply_button_image: "/uploads/Asset%202@4x-8.png"
-Apply Button Link: https://airtable.com/shrka8iYZ0YZUuG8a
-Mascot Icon Image: "/uploads/Sabii_QTZ-2023-Peach-Mascot-Animationv2_solidbg.gif"
+Apply Button Link: https://airtable.com/appf2fecRnMIsPCyM/shrovS01zao9MS0Uv
+Mascot Icon Image: "/uploads/2024PeachA.png"

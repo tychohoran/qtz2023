@@ -26,9 +26,14 @@ description: Queer & Trans Zinefest (QTZ) is an annual small works festival cele
   on Saturday, August 31st 2024, from 11am-5pm. Come join us! QTZ is totally free
   and open to the public.
 permalink: pretty
-background_color: "#FFE0DE"
-text_color: "#134083"
-accent_color: "#ff413a"
+background_color: "#ffe7ff"
+text_color: "#003400"
+accent_color: "#f34d00"
+accent_orange: "#fbaa34"
+theme_green: "#d2ff69"
+theme_blue: "#96ffff"
+theme_orange: "#ffcc80"
+theme_yellow: "#ffef5d"
 Favicon Image: "/uploads/favicon.ico"
 Text Logo Sideways Image: 
 Text Logo Stacked Image: "/uploads/QTZ-2023-Font-Final-2_darker_flat.png"
